@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script>
+        function send()
+        {
+            var num = document.getElementById("txtNumber").value;
+            alert(num);
+            window.location = "http://wa.me/" + (num);
+        }
+    </script>
+</head>
+<body>
+
+    <input type="text"name="txtNumber" id="txtNumber" />
+    <button value="clickW"  type="button" title="clickW" onclick="send()">Open Whatsapp</button>
+</body>
+</html>
